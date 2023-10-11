@@ -248,13 +248,13 @@ dataPanel.addEventListener("click", function (event) {
                                 <a href="https://www.youtube.com/@Frogking_Odessa/" target="_blank" class="social-media-link">
                                     <i class="fa-brands fa-youtube"></i>
                                 </a>
-                                <a href="twitch.tv/odessa_thefrogking" target="_blank" class="social-media-link">
+                                <a href="https://twitch.tv/odessa_thefrogking" target="_blank" class="social-media-link">
                                     <i class="fa-brands fa-twitch"></i>
                                 </a>
-                                <a href="instagram.com/odessa_thefrogking" target="_blank" class="social-media-link">
+                                <a href="https://instagram.com/odessa_thefrogking" target="_blank" class="social-media-link">
                                     <i class="fa-brands fa-instagram fa-lg"></i>
                                 </a>
-                                <a href="discord.gg/Fzbj9KfpXR" target="_blank" class="social-media-link">
+                                <a href="https://discord.gg/Fzbj9KfpXR" target="_blank" class="social-media-link">
                                     <i class="fa-brands fa-discord"></i>
                                 </a>
                             </div>
