@@ -98,7 +98,7 @@ const questions = {
     },
     "7": {
         "content": "知道對面準備要下無頭騎士或遁形豬，下圖是你的奈威迴響與卡組，你會？",
-        "image": "./configs/q7.png",
+        "image": "./configs/q7.jpg",
         "option": {
             "A": "隨行現影帶走關鍵生物",
             "B": "為了保護蛋蛋，準備好全全",
