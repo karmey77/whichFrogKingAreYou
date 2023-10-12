@@ -64,7 +64,7 @@ const questions = {
         }
     },
     "4": {
-        "content": "對面露娜使用了水水噴攻擊你的凱文，下圖是你的奈威迴響卡組，你會選擇？",
+        "content": "對面露娜使用了水水噴攻擊你的凱文，下圖是你的奈威迴響卡組，假設手牌什麼都有，你會選擇？",
         "image": "./configs/q4.jpg",
         "option": {
             "A": "隨行現影帶走凱文或是用全全破心護擋住",
@@ -75,7 +75,7 @@ const questions = {
         }
     },
     "5": {
-        "content": "對面露娜使用了水水噴攻擊你的凱文，下圖是你的石內迴響卡組，你會選擇？",
+        "content": "對面露娜使用了水水噴攻擊你的凱文，下圖是你的石內迴響卡組，假設手牌什麼都有，你會選擇？",
         "image": "./configs/q5.jpg",
         "option": {
             "A": "速速前斷招",
@@ -97,7 +97,7 @@ const questions = {
         }
     },
     "7": {
-        "content": "知道對面準備要下無頭騎士或遁形豬，下圖是你的奈威迴響與卡組，你會？",
+        "content": "知道對面準備要下無頭騎士或遁形豬，下圖是你的奈威迴響與卡組，假設手牌什麼都有，你會？",
         "image": "./configs/q7.jpg",
         "option": {
             "A": "隨行現影帶走關鍵生物",
@@ -144,7 +144,7 @@ const questions = {
 // Fisher-Yates洗牌算法
 function shuffleArray() {
     let array = ['A', 'B', 'C', 'D', 'E']
-    for (var i = array.length - 1; i > 0; i--) {
+    for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         let temp = array[i];
         array[i] = array[j];
