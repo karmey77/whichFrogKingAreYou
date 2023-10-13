@@ -232,13 +232,13 @@ dataPanel.addEventListener("click", function (event) {
                 console.log(mostFrequent)
                 const firstHTML = `
                         <div>
-                            <h2>您的測驗結果是：</h2>
+                            <h2>子民你的測驗結果是：</h2>
                             <h1>${outcomes[mostFrequent]["name"]}</h1>
                             <img src=${outcomes[mostFrequent]["image"]} style="padding: 1rem; max-width: 85%; height: auto;" alt="">
                             <p style="padding-left: 2rem; padding-right: 2rem; padding-top: 1rem; text-align:left;">${outcomes[mostFrequent]["content"]}</p>
                             <div style="margin: 2rem; text-align:left;" class="alert alert-success alert-dismissible fade show" role="alert">
                                 <strong>金幾勒！</strong> 
-                                <p>歡迎截圖分享給你的好友！</p>
+                                <p>歡迎截圖分享給子民的好友！</p>
                                 <p>（離開網站會遺失測驗結果）</p>
                             </div>
                             <br>
